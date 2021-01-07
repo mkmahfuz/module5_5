@@ -1,0 +1,84 @@
+h1:hover{
+    color: aqua;
+}
+.hvr:hover{
+    color: brown;
+}
+button:hover{
+    color: rgb(177, 209, 144);
+    background-color: darkblue;
+}
+button{
+    background-color: darkkhaki;
+}
+
+input:focus{
+    background-color: yellow;
+    font-weight: 700;
+    width: 30px;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    font-size: 30px;
+}
+li:nth-child(2n){
+    color: brown;
+}
+li:nth-child(2n+1){
+    color:cyan;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+color:darkgoldenrod;
+}
+a:hover{
+background-color: darkgreen;
+}
+a:active{
+background-color: darkred;
+}
+/*pseudo element before after */
+h2::before{
+content: "Mr.";
+color: darkred;
+
+}
+h2::after{
+    content: "from";
+    font-size: 30px;
+}
+/*position */
+section{
+    width: 300px;
+    height: 400px;
+    background-color:lavender;
+    position:relative; /* i use this postion for absolute inside the div*/
+}
+div{
+    width: 60px;
+    height: 20px;
+
+}
+#normal{
+    background-color: lawngreen;
+}
+#relative{
+    background-color: lightcoral;
+    position: relative;
+    left:30px;
+}
+#absolute{
+    background-color: orange;
+    position: absolute;
+    top:50px;
+}
+#fixed{
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 300px;
+    left: 200px;
+}
